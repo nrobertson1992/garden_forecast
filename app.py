@@ -62,5 +62,5 @@ if st.button('Calculate Nathan\'s Harvest'):
 		st.header('Total Harvest')
 		st.markdown("""
 			There will be a total of **{}** pounds of produce generated in Nathan's garden over the season, and {} square feet left over.
-			""".format(total_harvest, space_used))
+			""".format(total_harvest, 80-space_used))
 
