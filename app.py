@@ -54,9 +54,9 @@ if st.button('Calculate Nathan\'s Harvest'):
 			""".format(fruit_harvest))
 
 		st.markdown("""
-			* Cherry Tomatoes: {}
-			* Raspberries: {} 
-			* Grapes: {}
+			* Cherry Tomatoes: {} pounds
+			* Raspberries: {} pounds
+			* Grapes: {} pounds
 			""".format(cherry_tomatoes_harvest, raspberries_harvest, grapes_harvest))
 
 		st.header('Total Harvest')
